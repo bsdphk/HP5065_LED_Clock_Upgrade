@@ -13,4 +13,7 @@ and
 
 I have a few spare PCBs if you are interested.
 
+You can find the KICAD files for the PCB in PCB_kicad.zip, and the
+gerbers I used for production in PCB_gerbers.zip.
+
 *phk*
