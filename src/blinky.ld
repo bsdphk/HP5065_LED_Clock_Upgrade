@@ -19,6 +19,9 @@ SECTIONS
         _text = .;
         KEEP(*(.isr_vector))
         KEEP(*(.after_vectors))
+	/*start CPR section definition*/
+        . = 0x000002FC;
+	KEEP(*(.crp))
         *(.text*)
         *(.rodata*)
         . = ALIGN(4);
